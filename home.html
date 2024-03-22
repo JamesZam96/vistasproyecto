@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garapp</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header class="header">
+        <div class="menu-button">
+            <label for="btn-menu">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </label>
+        </div>
+        <div class="logo">
+            <h1>Garapp</h1>
+        </div>
+        <div class="location">
+            <a href="#">Ubicación</a>
+            <span class="material-symbols-outlined">location_on</span>
+        </div>
+        <div class="search-ps">
+            <input type="search">
+        </div>
+        <div class="signin">
+            <a href="#">Ingreso</a>
+            <span class="material-symbols-outlined">account_circle</span>
+        </div>
+        <div class="shopping-cart-button">
+            <label for="btn-cart">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </label>
+        </div>
+    </header>
+    
+    <!--Menu lateral-->
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <div class="sign-button">
+                    <button class="login-button">Iniciar Sesión</button>
+                    <button class="signup-button">Registrarse</button>
+                </div>
+                <a href="#">Talleres</a>
+                <a href="#">Almacenes</a>
+                <a href="#">Registra tu almacén</a>
+                <a href="#">Registra tu taller</a>
+                <a href="#">Quiero ser domiciliario</a>
+            </nav>
+            <label for="btn-menu">
+                <span class="material-symbols-outlined">
+                    close
+                </span>
+            </label>
+        </div>
+    </div>
+    
+    <!--Menu shopping cart-->
+    <input type="checkbox" id="btn-cart">
+    <div class="container-menu-cart">
+        <div class="cont-menu-cart">
+            <nav>
+                <div class="purchase-button">
+                    <button class="pur-button">Comenzar a comprar</button>
+                </div>
+            </nav>
+            <label for="btn-cart">
+                <span class="material-symbols-outlined">
+                    close
+                </span>
+            </label>
+        </div>
+    </div>
+</body>
+</html>
